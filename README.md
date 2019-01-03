@@ -43,3 +43,14 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 		Observe the state changes as your app runs and as you interact with each Activity in your app.
 		Modify your app to retain the instance state of an Activity that is unexpectedly recreated in response to user behavior or configuration change on the device.
 </pre>
+
+<b>ImplicitIntents</b>
+
+<pre>
+02.3 -> Create a new app to experiment with implicit Intent.
+		Implement an implicit Intent that opens a web page, and another that opens a location on a map.
+		Implement an action to share a snippet of text.
+		Create a new app that can accept an implicit Intent for opening a web page.
++ Homework -> 	Add another button at the bottom of the screen.
+				When the Button is clicked, launch a camera app to take a picture. (Don't need to return the picture to the original app.)
+</pre>
