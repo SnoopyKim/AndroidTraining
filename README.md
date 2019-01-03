@@ -38,4 +38,8 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 02.1 -> Create a new Android app with a main Activity and a second Activity.
 		Pass some data (a string) from the main Activity to the second using an Intent, and display that data in the second Activity.
 		Send a second different bit of data back to the main Activity, also using an Intent.
+
+02.2 -> Add code to the TwoActivities app from the previous practical to implement the various Activity lifecycle callbacks to include logging statements.
+		Observe the state changes as your app runs and as you interact with each Activity in your app.
+		Modify your app to retain the instance state of an Activity that is unexpectedly recreated in response to user behavior or configuration change on the device.
 </pre>
