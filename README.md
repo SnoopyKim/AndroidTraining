@@ -54,3 +54,12 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 + Homework -> 	Add another button at the bottom of the screen.
 				When the Button is clicked, launch a camera app to take a picture. (Don't need to return the picture to the original app.)
 </pre>
+
+<b>SimpleCalc</b>
+
+<pre>
+03.1 -> Set and view breakpoints in the code for SimpleCalc.
+		Step through your code as it runs.
+		Examine variables and evaluate expressions.
+		Identify and fix problems in the sample app.
+</pre>
