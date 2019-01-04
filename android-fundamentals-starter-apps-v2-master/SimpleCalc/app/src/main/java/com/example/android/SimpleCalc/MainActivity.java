@@ -20,7 +20,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -89,6 +88,14 @@ public class MainActivity extends Activity {
         compute(Calculator.Operator.MUL);
     }
 
+    /**
+     * OnClick method called when the power Button is pressed.
+     */
+    public void onPow(View view) {
+        compute(Calculator.Operator.POW);
+    }
+
+
     private void compute(Calculator.Operator operator) {
         double operandOne;
         double operandTwo;
@@ -104,20 +111,19 @@ public class MainActivity extends Activity {
         String result;
         switch (operator) {
             case ADD:
-                result = String.valueOf(
-                        mCalculator.add(operandOne, operandTwo));
+                result = String.valueOf(mCalculator.add(operandOne, operandTwo));
                 break;
             case SUB:
-                result = String.valueOf(
-                        mCalculator.sub(operandOne, operandTwo));
+                result = String.valueOf(mCalculator.sub(operandOne, operandTwo));
                 break;
             case DIV:
-                result = String.valueOf(
-                        mCalculator.div(operandOne, operandTwo));
+                result = String.valueOf(mCalculator.div(operandOne, operandTwo));
                 break;
             case MUL:
-                result = String.valueOf(
-                        mCalculator.mul(operandOne, operandTwo));
+                result = String.valueOf(mCalculator.mul(operandOne, operandTwo));
+                break;
+            case POW:
+                result = String.valueOf(mCalculator.pow(operandOne, operandTwo));
                 break;
             default:
                 result = getString(R.string.computationError);
@@ -140,4 +146,5 @@ public class MainActivity extends Activity {
     private static String getOperandText(EditText operandEditText) {
         return operandEditText.getText().toString();
     }
+
 }

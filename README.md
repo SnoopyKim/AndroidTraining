@@ -62,4 +62,8 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 		Step through your code as it runs.
 		Examine variables and evaluate expressions.
 		Identify and fix problems in the sample app.
+		
+03.2 -> Run the initial tests in the SimpleCalc app.
+		Add more tests to the SimpleCalc app.
+		Run the unit tests to see the results.
 </pre>

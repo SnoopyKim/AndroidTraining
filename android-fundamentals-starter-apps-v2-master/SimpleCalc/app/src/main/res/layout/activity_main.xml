@@ -77,6 +77,14 @@
             android:onClick="onMul"
             android:text="@string/mul_operation_text"/>
 
+        <Button
+            android:id="@+id/operation_pow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/operation_sub_btn"
+            android:layout_toRightOf="@+id/operation_sub_btn"
+            android:onClick="onPow"
+            android:text="@string/pow_operation_text"/>
     </RelativeLayout>
 
     <TextView
