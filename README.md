@@ -86,9 +86,18 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 
 <h3>DroidCafe</h3>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-clickable-images/img/5961de998cd2e4cf.png">
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-input-controls/img/c97b83b2b1641618.png">
 <pre>
 04.1 -> Create a new Android Studio project for a mock dessert-ordering app that uses images as interactive elements.
 	Set onClick() handlers for the images to display different Toast messages.
 	Change the floating action button supplied by the template so that it shows a different icon and launches another Activity.
 + Homework -> Create a layout variant for horizontal orientation: content_main.xml (land).
+</pre>
+<pre>
+04.2 -> Show a keyboard for entering an email address.
+		Show a numeric keypad for entering phone numbers.
+		Allow multiple-line text entry with automatic sentence capitalization.
+		Add radio buttons for selecting an option.
+		Set an onClick handler for the radio buttons.
+		Add a spinner for the phone number field for selecting one value from a set of values.
 </pre>
