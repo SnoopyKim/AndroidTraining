@@ -1,8 +1,8 @@
 # AndroidTraining
 Android fundamentals - https://codelabs.developers.google.com/android-training/
 
-<b>AndroidTraining1</b>
-<img src="https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/img/604a6e36cc43048d.png" />
+<b>AndroidTraining1</b><br/>
+<img height="200" src="https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/img/604a6e36cc43048d.png" />
 <pre>
 01.1 -> Install the Android Studio development environment.
         Create an emulator (virtual device) to run your app on your computer.
@@ -32,7 +32,7 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
         Add a launcher icon for your app.
 </pre>
 
-<b>TwoActivities</b>
+<b>TwoActivities</b><br/>
 <img src="https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/img/72c5f62669fa22af.png" />
 <pre>
 02.1 -> Create a new Android app with a main Activity and a second Activity.
@@ -44,7 +44,7 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 		Modify your app to retain the instance state of an Activity that is unexpectedly recreated in response to user behavior or configuration change on the device.
 </pre>
 
-<b>ImplicitIntents</b>
+<b>ImplicitIntents</b><br/>
 <img src="https://codelabs.developers.google.com/codelabs/android-training-activity-with-implicit-intent/img/75924fd32283279b.png" />
 <pre>
 02.3 -> Create a new app to experiment with implicit Intent.
@@ -55,7 +55,7 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 				When the Button is clicked, launch a camera app to take a picture. (Don't need to return the picture to the original app.)
 </pre>
 
-<b>SimpleCalc</b>
+<b>SimpleCalc</b><br/>
 <img src="https://codelabs.developers.google.com/codelabs/android-training-using-debugger/img/26a2273d0165e2cb.png" />
 <pre>
 03.1 -> Set and view breakpoints in the code for SimpleCalc.
@@ -68,7 +68,7 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 		Run the unit tests to see the results.
 </pre>
 
-<b>HelloCompat</b>
+<b>HelloCompat</b><br/>
 <img src="https://codelabs.developers.google.com/codelabs/android-training-support-libraries/img/240252e5b01d106f.png" />
 <pre>
 03.3 -> Create a new app with one TextView and one Button.
@@ -78,7 +78,7 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 		Use a compatibility class from the support library to provide backward-compatibility for your app.
 </pre>
 
-<b>DroidCafe</b>
+<b>DroidCafe</b><br/>
 <img src="https://codelabs.developers.google.com/codelabs/android-training-clickable-images/img/5961de998cd2e4cf.png" />
 <pre>
 04.1 -> Create a new Android Studio project for a mock dessert-ordering app that uses images as interactive elements.
