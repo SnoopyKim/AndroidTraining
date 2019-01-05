@@ -1,8 +1,8 @@
 # AndroidTraining
 Android fundamentals - https://codelabs.developers.google.com/android-training/
 
-<b>AndroidTraining1</b><br/>
-<img height="200" src="https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/img/604a6e36cc43048d.png" />
+<h2>AndroidTraining1</h2><br/>
+<img height="300" src="https://codelabs.developers.google.com/codelabs/android-training-text-and-scrolling-views/img/604a6e36cc43048d.png" />
 <pre>
 01.1 -> Install the Android Studio development environment.
         Create an emulator (virtual device) to run your app on your computer.
