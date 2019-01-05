@@ -33,7 +33,7 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
         Add a launcher icon for your app.
 </pre>
 
-<h3>TwoActivities</b>
+<h3>TwoActivities</h3>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-an-activity/img/72c5f62669fa22af.png">
 <pre>
 02.1 -> Create a new Android app with a main Activity and a second Activity.
