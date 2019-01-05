@@ -11,12 +11,16 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
         Explore the project layout.
         Generate and view log messages from your app.
         Explore the AndroidManifest.xml file.
+</pre>
+<pre>
 01.2 -> Create an app and add two Button elements and a TextView to the layout.
 	Manipulate each element in the ConstraintLayout to constrain them to the margins and other elements.
 	Change UI element attributes.
 	Edit the app's layout in XML.
 	Extract hardcoded strings into string resources.
 	Implement click-handler methods to display messages on the screen when the user taps each Button.
+</pre>
+<pre>
 01.3 -> Create a layout variant for a horizontal display orientation.
 	Create a layout variant for tablets and larger displays.
 	Modify the layout to add constraints to the UI elements.
@@ -26,6 +30,8 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Position elements in a LinearLayout.
 	Change the layout to use RelativeLayout.
 	Rearrange the views in the main layout to be relative to each other.
+</pre>
+<pre>
 01.4 -> Explore some of the many resources available to Android developers of all levels.
 	Add a launcher icon for your app.
 </pre>
@@ -36,6 +42,8 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 02.1 -> Create a new Android app with a main Activity and a second Activity.
 	Pass some data (a string) from the main Activity to the second using an Intent, and display that data in the second Activity.
 	Send a second different bit of data back to the main Activity, also using an Intent.
+</pre>
+<pre>
 02.2 -> Add code to the TwoActivities app from the previous practical to implement the various Activity lifecycle callbacks to include logging statements.
 	Observe the state changes as your app runs and as you interact with each Activity in your app.
 	Modify your app to retain the instance state of an Activity that is unexpectedly recreated in response to user behavior or configuration change on the device.
@@ -58,7 +66,9 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 03.1 -> Set and view breakpoints in the code for SimpleCalc.
 	Step through your code as it runs.
 	Examine variables and evaluate expressions.
-	Identify and fix problems in the sample app.	
+	Identify and fix problems in the sample app.
+</pre>
+<pre>
 03.2 -> Run the initial tests in the SimpleCalc app.
 	Add more tests to the SimpleCalc app.
 	Run the unit tests to see the results.
