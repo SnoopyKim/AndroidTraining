@@ -67,3 +67,13 @@ Android fundamentals - https://codelabs.developers.google.com/android-training/
 		Add more tests to the SimpleCalc app.
 		Run the unit tests to see the results.
 </pre>
+
+<b>HelloCompat</b>
+
+<pre>
+03.3 -> Create a new app with one TextView and one Button.
+		Verify that the Android Support Repository (containing the Android Support Library) is available in your Android Studio installation.
+		Explore the build.gradle files for your app project.
+		Manage class or method calls that are unavailable for the version of Android your app supports.
+		Use a compatibility class from the support library to provide backward-compatibility for your app.
+</pre>
