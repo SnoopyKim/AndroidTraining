@@ -2,6 +2,7 @@ package com.example.android.droidcafe;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,7 +20,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
         setContentView(R.layout.activity_order);
 
         Intent intent = getIntent();
-        String message = "Order :" + intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = "Order: " + intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         TextView textView = findViewById(R.id.order_textview);
         textView.setText(message);
@@ -75,5 +76,19 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    public void showDatePicker(View view) {
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getSupportFragmentManager(), getString(R.string.datepicker));
+    }
+
+    public void processDatePickerResult(int year, int month, int day) {
+        String st_year = Integer.toString(year);
+        String st_month = Integer.toString(month+1);
+        String st_day = Integer.toString(day);
+
+        String dateMessage = (st_month+"/"+st_day+"/"+st_year);
+        displayToast(dateMessage);
     }
 }

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dialog For Alert</string>
+    <string name="alert_text">Hello World! Tap to test the alert</string>
+    <string name="alert_btn">Alert</string>
+    <string name="alert_message">Click OK to continue, or Cancel to stop:</string>
+    <string name="alert_title">Alert</string>
+    <string name="ok_btn">OK</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="date_btn">Date</string>
+    <string name="date_txt">Hello World! Choose a date:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="datepicker">datePicker</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="time_txt">Hello World! Choose a time:</string>
+    <string name="time_btn">Time</string>
+    <string name="timepicker">timePicker</string>
+</resources>
