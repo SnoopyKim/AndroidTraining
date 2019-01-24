@@ -112,6 +112,10 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 		Connect menu-item clicks to event handlers that process the click events.
 +Homework -> Add a Date button under the delivery options that shows the date picker.
 </pre>
+<pre>
+04.4 -> Continue adding features to the Droid Cafe project from the previous practical.
+		Provide the Up button in the app bar to navigate up to the parent Activity.
+</pre>
 
 <h3>Dialog For Alert</h3>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/6fcbad5be57491f3.png">
@@ -119,4 +123,10 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 <pre>
 04.3 -> Use an alert dialog to request a user's choice.
 		Use a date picker for date input.
+</pre>
+
+<h3>Tab Experiment</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-provide-user-navigation/img/213f9d59283810bb.png">
+<pre>
+04.4 -> Create a new app with tabs for navigating Activity screens that can also be swiped.
 </pre>
