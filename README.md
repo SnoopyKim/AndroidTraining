@@ -130,3 +130,15 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 <pre>
 04.4 -> Create a new app with tabs for navigating Activity screens that can also be swiped.
 </pre>
+
+<h3>RecyclerView</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/img/86fabc5476249934.png" />
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/img/95ab0af3b6e24d7b.png" />
+<pre>
+04.5 -> Create a new app that uses a RecyclerView to display a list of items as a scrollable list and associate click behavior with the list items.
+		Use a FAB to let the user add items to the RecyclerView.
++Homework -> Create an app that uses a RecyclerView to display a list of recipes.
+			 Each list item must show the name of the recipe with a short description.
+			 When the user taps a recipe (an item in the list), start an Activity that shows the full recipe text.
+			 Clicking the Up button takes the user back to the list of recipes.
+</pre>
