@@ -88,9 +88,9 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 </pre>
 
 <h3>DroidCafe</h3>
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-clickable-images/img/5961de998cd2e4cf.png">
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-input-controls/img/c97b83b2b1641618.png">
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/da72bfc83aae5644.png">
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-clickable-images/img/5961de998cd2e4cf.png">
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-input-controls/img/c97b83b2b1641618.png">
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/da72bfc83aae5644.png">
 <pre>
 04.1 -> Create a new Android Studio project for a mock dessert-ordering app that uses images as interactive elements.
 	Set onClick() handlers for the images to display different Toast messages.
@@ -118,22 +118,22 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 </pre>
 
 <h3>Dialog For Alert</h3>
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/6fcbad5be57491f3.png">
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/acfbdf73053e33ee.png">
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/6fcbad5be57491f3.png">
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/acfbdf73053e33ee.png">
 <pre>
 04.3 -> Use an alert dialog to request a user's choice.
 	Use a date picker for date input.
 </pre>
 
 <h3>Tab Experiment</h3>
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-provide-user-navigation/img/213f9d59283810bb.png">
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-provide-user-navigation/img/213f9d59283810bb.png">
 <pre>
 04.4 -> Create a new app with tabs for navigating Activity screens that can also be swiped.
 </pre>
 
 <h3>RecyclerView</h3>
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/img/86fabc5476249934.png" />
-<img style="float: right;" height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/img/95ab0af3b6e24d7b.png" />
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/img/86fabc5476249934.png" />
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/img/95ab0af3b6e24d7b.png" />
 <pre>
 04.5 -> Create a new app that uses a RecyclerView to display a list of items as a scrollable list and associate click behavior with the list items.
 	Use a FAB to let the user add items to the RecyclerView.
