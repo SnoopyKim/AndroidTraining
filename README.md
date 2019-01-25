@@ -99,22 +99,22 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 </pre>
 <pre>
 04.2 -> Show a keyboard for entering an email address.
-		Show a numeric keypad for entering phone numbers.
-		Allow multiple-line text entry with automatic sentence capitalization.
-		Add radio buttons for selecting an option.
-		Set an onClick handler for the radio buttons.
-		Add a spinner for the phone number field for selecting one value from a set of values.
+	Show a numeric keypad for entering phone numbers.
+	Allow multiple-line text entry with automatic sentence capitalization.
+	Add radio buttons for selecting an option.
+	Set an onClick handler for the radio buttons.
+	Add a spinner for the phone number field for selecting one value from a set of values.
 </pre>
 <pre>
 04.3 -> Continue adding features to the Droid Cafe project from the previous practical.
-		Add menu items to the options menu.
-		Add icons for menu items to appear in the app bar.
-		Connect menu-item clicks to event handlers that process the click events.
+	Add menu items to the options menu.
+	Add icons for menu items to appear in the app bar.
+	Connect menu-item clicks to event handlers that process the click events.
 +Homework -> Add a Date button under the delivery options that shows the date picker.
 </pre>
 <pre>
 04.4 -> Continue adding features to the Droid Cafe project from the previous practical.
-		Provide the Up button in the app bar to navigate up to the parent Activity.
+	Provide the Up button in the app bar to navigate up to the parent Activity.
 </pre>
 
 <h3>Dialog For Alert</h3>
@@ -122,7 +122,7 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/acfbdf73053e33ee.png">
 <pre>
 04.3 -> Use an alert dialog to request a user's choice.
-		Use a date picker for date input.
+	Use a date picker for date input.
 </pre>
 
 <h3>Tab Experiment</h3>
@@ -136,9 +136,9 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-recycler-view/img/95ab0af3b6e24d7b.png" />
 <pre>
 04.5 -> Create a new app that uses a RecyclerView to display a list of items as a scrollable list and associate click behavior with the list items.
-		Use a FAB to let the user add items to the RecyclerView.
+	Use a FAB to let the user add items to the RecyclerView.
 +Homework -> Create an app that uses a RecyclerView to display a list of recipes.
-			 Each list item must show the name of the recipe with a short description.
-			 When the user taps a recipe (an item in the list), start an Activity that shows the full recipe text.
-			 Clicking the Up button takes the user back to the list of recipes.
+		Each list item must show the name of the recipe with a short description.
+		When the user taps a recipe (an item in the list), start an Activity that shows the full recipe text.
+		Clicking the Up button takes the user back to the list of recipes.
 </pre>
