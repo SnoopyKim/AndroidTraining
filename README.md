@@ -142,3 +142,12 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 		When the user taps a recipe (an item in the list), start an Activity that shows the full recipe text.
 		Clicking the Up button takes the user back to the list of recipes.
 </pre>
+
+<h3>Scorekeeper</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-drawables-styles-and-themes/img/6ff1e098bf0726f4.png" />
+<pre>
+05.1 -> Create a new app and add Button and TextView elements to the layout.
+	Create Drawable resources in XML and use them as backgrounds for your Button elements.
+	Apply styles to UI elements.
+	Add a menu item that changes the theme of the app to a low contrast "night mode."
+</pre>
