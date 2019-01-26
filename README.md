@@ -150,4 +150,5 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Create Drawable resources in XML and use them as backgrounds for your Button elements.
 	Apply styles to UI elements.
 	Add a menu item that changes the theme of the app to a low contrast "night mode."
+	Coding challenge: create a Drawable resource that changes the background of the ImageButton to the same color as the border when the state of the ImageButton is "pressed". You should also set the color of the text inside the ImageButton elements to a selector that makes it white when the button is "pressed".
 </pre>
