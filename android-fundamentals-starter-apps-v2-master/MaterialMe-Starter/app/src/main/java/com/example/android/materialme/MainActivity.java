@@ -16,12 +16,17 @@
 
 package com.example.android.materialme;
 
+import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.helper.ItemTouchHelper;
+import android.view.View;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /***
  * Main Activity for the Material Me app, a mock sports news application
@@ -53,30 +58,65 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
 
         // Get the data.
-        initializeData();
+        initializeData(savedInstanceState);
+
+        ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(
+                ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT | ItemTouchHelper.DOWN | ItemTouchHelper.UP,
+                ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+            @Override
+            public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
+                int from = viewHolder.getAdapterPosition();
+                int to = target.getAdapterPosition();
+                Collections.swap(mSportsData, from, to);
+                mAdapter.notifyItemMoved(from, to);
+                return true;
+            }
+
+            @Override
+            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+                mSportsData.remove(viewHolder.getAdapterPosition());
+                mAdapter.notifyItemRemoved(viewHolder.getAdapterPosition());
+            }
+        });
+        helper.attachToRecyclerView(mRecyclerView);
     }
 
     /**
      * Initialize the sports data from resources.
      */
-    private void initializeData() {
+    private void initializeData(Bundle bundle) {
         // Get the resources from the XML file.
-        String[] sportsList = getResources()
-                .getStringArray(R.array.sports_titles);
-        String[] sportsInfo = getResources()
-                .getStringArray(R.array.sports_info);
+        String[] sportsList = getResources().getStringArray(R.array.sports_titles);
+        String[] sportsInfo = getResources().getStringArray(R.array.sports_info);
+        TypedArray sportImageResources = getResources().obtainTypedArray(R.array.sports_images);
 
         // Clear the existing data (to avoid duplication).
         mSportsData.clear();
 
-        // Create the ArrayList of Sports objects with titles and
-        // information about each sport.
-        for(int i=0;i<sportsList.length;i++){
-            mSportsData.add(new Sport(sportsList[i],sportsInfo[i]));
+        // Create the ArrayList of Sports objects with titles and information about each sport.
+        // check savedInstanceBundle
+        if (bundle != null) {
+            mSportsData.addAll(bundle.<Sport>getParcelableArrayList("sport_data"));
+        } else {
+            for (int i = 0; i < sportsList.length; i++) {
+                mSportsData.add(new Sport(sportsList[i], sportsInfo[i], sportImageResources.getResourceId(i, 0)));
+            }
         }
+
+        sportImageResources.recycle();
 
         // Notify the adapter of the change.
         mAdapter.notifyDataSetChanged();
     }
 
+    public void resetSports(View view) {
+        initializeData(null);
+    }
+
+    // Save sports data for orientation changes.
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putParcelableArrayList("sport_data", mSportsData);
+        super.onSaveInstanceState(outState);
+    }
 }

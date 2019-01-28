@@ -152,3 +152,14 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Add a menu item that changes the theme of the app to a low contrast "night mode."
 	Coding challenge: create a Drawable resource that changes the background of the ImageButton to the same color as the border when the state of the ImageButton is "pressed". You should also set the color of the text inside the ImageButton elements to a selector that makes it white when the button is "pressed".
 </pre>
+
+<h3>MaterialMe-Starter</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-cards-and-colors/img/1e3ffbf95cd3384c.png" />
+<pre>
+05.2 -> Modify an app to follow Material Design guidelines.
+	Add images and styling to a RecyclerView list.
+	Implement an ItemTouchHelper to add drag-and-drop functionality to your app.
+	Coding challenge: Implement a way to ensure that the state of the app is persistent across orientation changes.
++Homework -> Create a shared element transition between the MainActivity and the DetailActivity, with the banner image for the sport as the shared element.
+		Clicking on a list item in the MaterialMe app triggers the transition. The banner image from the card moves to the top of the screen in the detail view.
+</pre>
