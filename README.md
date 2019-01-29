@@ -142,6 +142,11 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 		When the user taps a recipe (an item in the list), start an Activity that shows the full recipe text.
 		Clicking the Up button takes the user back to the list of recipes.
 </pre>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-adaptive-layouts/img/a2294efedb7e2ff2.png" />
+<pre>
+05.3 -> Homework: Modify the RecyclerView app to use a GridLayoutManager with the following column counts:
+		1 column in portrait orientation, 2 columns in landscape orientation
+</pre>
 
 <h3>Scorekeeper</h3>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-drawables-styles-and-themes/img/6ff1e098bf0726f4.png" />
@@ -162,4 +167,12 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Coding challenge: Implement a way to ensure that the state of the app is persistent across orientation changes.
 +Homework -> Create a shared element transition between the MainActivity and the DetailActivity, with the banner image for the sport as the shared element.
 		Clicking on a list item in the MaterialMe app triggers the transition. The banner image from the card moves to the top of the screen in the detail view.
+</pre>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-adaptive-layouts/img/5c00592ae7e375be.png" />
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-adaptive-layouts/img/c6afa0d002d0098a.png" />
+<pre>
+05.3 -> Update the MaterialMe app for better use of space in landscape mode.
+	Add an alternative layout for tablets.
+	Localize the content of your app.
+	Coding challenge: Use the localization techniques to translate all of the strings in your app into a different language. (I used korean)
 </pre>

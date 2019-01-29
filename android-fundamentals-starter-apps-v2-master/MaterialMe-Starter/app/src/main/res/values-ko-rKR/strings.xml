@@ -1,0 +1,71 @@
+<!--
+  Copyright 2018 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Material Me!</string>
+    <string name="title_placeholder">제목</string>
+    <string name="news_placeholder">뉴스</string>
+    <string name="sports_info_placeholder">다음은 몇 가지 뉴스입니다.</string>
+    <string name="sub_title_detail">
+        독자가 레이아웃을 볼 때 페이지의 읽을 수있는 내용에주의를 산만하게한다는 것은 오랫동안 확립 된 사실입니다.
+        Lorem Ipsum 사용의 요점은 \'여기의 내용, 여기의 내용\'을 사용하는 것과 대조적으로
+        글자의 정규 분포가 더 많아 지거나 읽을 수있는 영어처럼 보일 수 있다는 것입니다.
+        많은 데스크탑 게시 패키지와 웹 페이지 편집기는 Lorem Ipsum을 기본 모델 텍스트로 사용하고
+        \'lorem ipsum\'에 대한 검색은 여전히 ​​초기 단계에있는 많은 웹 사이트를 발견합니다.
+        다양한 버전이 수시로, 때로는 우연히, 때로는 의도적으로 (주입 된 유머 등) 진화 해 왔습니다.
+    </string>
+    <string-array name="sports_titles">
+        <item>야구</item>
+        <item>배드민턴</item>
+        <item>농구</item>
+        <item>볼링</item>
+        <item>사이클링</item>
+        <item>골프</item>
+        <item>육상</item>
+        <item>축구</item>
+        <item>수영</item>
+        <item>탁구</item>
+        <item>테니스</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item> 여기 야구 뉴스가 있습니다! </item>
+        <item> 배드민턴 소식이 있습니다! </item>
+        <item> 여기 농구 뉴스가 있습니다! </item>
+        <item> 볼링 소식이 있습니다! </item>
+        <item> 다음은 사이클링 뉴스입니다! </item>
+        <item> 골프 소식이 있습니다! </item>
+        <item> 다음은 러닝 뉴스입니다! </item>
+        <item> 다음은 축구 소식입니다! </item>
+        <item> 여기 수영 뉴스가 있습니다! </item>
+        <item> 다음은 탁구 관련 뉴스입니다! </item>
+        <item> 테니스 뉴스를 소개합니다! </item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+
+</resources>
