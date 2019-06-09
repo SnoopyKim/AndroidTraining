@@ -51,6 +51,10 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Observe the state changes as your app runs and as you interact with each Activity in your app.
 	Modify your app to retain the instance state of an Activity that is unexpectedly recreated in response to user behavior or configuration change on the device.
 </pre>
+<pre>
+06.1 -> Set up Espresso in project.
+	Test for Activity switching and text input.
+</pre>
 
 <h3>ImplicitIntents</h3>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-activity-with-implicit-intent/img/75924fd32283279b.png">
@@ -150,12 +154,18 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 
 <h3>Scorekeeper</h3>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-drawables-styles-and-themes/img/6ff1e098bf0726f4.png" />
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-espresso-for-ui-testing/img/e17e45f64d1220a9.png" />
 <pre>
 05.1 -> Create a new app and add Button and TextView elements to the layout.
 	Create Drawable resources in XML and use them as backgrounds for your Button elements.
 	Apply styles to UI elements.
 	Add a menu item that changes the theme of the app to a low contrast "night mode."
 	Coding challenge: create a Drawable resource that changes the background of the ImageButton to the same color as the border when the state of the ImageButton is "pressed". You should also set the color of the text inside the ImageButton elements to a selector that makes it white when the button is "pressed".
+</pre>
+<pre>
+06.1 -> Reord multiple interactions with the UI.
+	Edit the tests to perform actions.
+	Using the recorded code as a snippet to copy, paste, and edit.
 </pre>
 
 <h3>MaterialMe-Starter</h3>
