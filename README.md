@@ -176,7 +176,7 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Implement an ItemTouchHelper to add drag-and-drop functionality to your app.
 	Coding challenge: Implement a way to ensure that the state of the app is persistent across orientation changes.
 +Homework -> Create a shared element transition between the MainActivity and the DetailActivity, with the banner image for the sport as the shared element.
-		Clicking on a list item in the MaterialMe app triggers the transition. The banner image from the card moves to the top of the screen in the detail view.
+	Clicking on a list item in the MaterialMe app triggers the transition. The banner image from the card moves to the top of the screen in the detail view.
 </pre>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-adaptive-layouts/img/5c00592ae7e375be.png" />
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-adaptive-layouts/img/c6afa0d002d0098a.png" />
@@ -185,4 +185,12 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Add an alternative layout for tablets.
 	Localize the content of your app.
 	Coding challenge: Use the localization techniques to translate all of the strings in your app into a different language. (I used korean)
+</pre>
+
+<h3>SimpleAsyncTask</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-create-asynctask/img/ac2145d527ad4625.png" />
+<pre>
+07.1 -> Create a simple app that executes a background task using an AsyncTask.
+	Run the app and see what happens when you rotate the device.
+	Implement activity instance state to retain the state of a TextView message.
 </pre>
