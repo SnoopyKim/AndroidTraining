@@ -194,3 +194,11 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Run the app and see what happens when you rotate the device.
 	Implement activity instance state to retain the state of a TextView message.
 </pre>
+
+<h3>WhoWroteIt && WhoWroteItLoader</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-asynctask-asynctaskloader/img/e29db06b7c9abd7d.png" />
+<pre>
+07.2 -> Use the Google APIs Explorer to learn about the Books API.
+	Create the "Who Wrote It?" app, which queries the Books API using a worker thread and displays the result in the UI.
+	Modify the "Who Wrote It?" app to use an AsyncTaskLoader instead of an AsyncTask.
+</pre>
