@@ -202,3 +202,11 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Create the "Who Wrote It?" app, which queries the Books API using a worker thread and displays the result in the UI.
 	Modify the "Who Wrote It?" app to use an AsyncTaskLoader instead of an AsyncTask.
 </pre>
+
+<h3>PowerReceiver</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-broadcast-receivers/img/26c4a5117e27b023.png" />
+<pre>
+07.3 -> Subclass a BroadcastReceiver to show a toast when a broadcast is received.
+	Register your receiver to listen for system broadcasts.
+	Send and receive a custom broadcast intent.
+</pre>
