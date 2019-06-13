@@ -219,3 +219,10 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Update the notification from a button in your app, and from an action button that's inside the notification.
 </pre>
 
+<h3>Stand Up!</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-alarm-manager/img/c01bab932820b1d9.png" />
+<pre>
+08.2 -> Set a repeating alarm to notify you every 15 minutes.
+	Use a ToggleButton to set and keep track of the alarm.
+	Use Toast messages to notify the user when the alarm is turned on or off.
+</pre>
