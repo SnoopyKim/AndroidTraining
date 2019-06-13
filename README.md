@@ -210,3 +210,12 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Register your receiver to listen for system broadcasts.
 	Send and receive a custom broadcast intent.
 </pre>
+
+<h3>Notify Me!</h3>
+<img height="400" float="left" src="https://codelabs.developers.google.com/codelabs/android-training-notifications/img/a63581bd545c65d2.png" />
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-notifications/img/18372f91a1eb5837.png" />
+<pre>
+08.1 -> Create an app that sends a notification when the user taps a button in the app.
+	Update the notification from a button in your app, and from an action button that's inside the notification.
+</pre>
+
