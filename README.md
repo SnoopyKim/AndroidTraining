@@ -226,3 +226,11 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Use a ToggleButton to set and keep track of the alarm.
 	Use Toast messages to notify the user when the alarm is turned on or off.
 </pre>
+
+<h3>NotificationJobService</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-job-scheduler/img/cd843e845163afa3.png" />
+<pre>
+08.3 -> Implement a JobService that delivers a simple notification to let the user know the job is running.
+	Get user Input to configure constraints (such as waiting until the device is charging) on the JobService.
+	Schedule the job using JobScheduler.
+</pre>
