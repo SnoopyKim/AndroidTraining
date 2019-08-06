@@ -234,3 +234,9 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Get user Input to configure constraints (such as waiting until the device is charging) on the JobService.
 	Schedule the job using JobScheduler.
 </pre>
+
+<h3>Hello Shared Prefs</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-shared-preferences/img/5dfd63922ee74727.png" />
+<pre>
+09.1 -> Update an app so it can save, retrieve, and reset shared preferences.
+</pre>

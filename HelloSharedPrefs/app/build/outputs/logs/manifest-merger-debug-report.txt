@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7f51a77116c0fe68b6943a23d7c5bbba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\533e5e73c85eda8c4b0bb03fe00b1e78\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8f7aa8d708c4b797135e48b52fbabcc7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\de85feb537aae1400391c815ac9eca03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\c2f5297fbe48f13e2c9d6e5550b632d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ab2f4474b8dcc3bf8f942dcbe0148363\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\25fd934b1be07ed54254e5ea8a5d1ed6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4285509a67a76844ab5a140709dd6fbe\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5a6891acec21438be267b51a0e39898e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4313e97fb2dbed8d5c54891ee8f4e5c0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\16cd3c3f5c8e5cc8836806fe36f0c33a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\526ac74a5bcc2838332baae18f100927\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+	package
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:16:11-57
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:11-69
+application
+ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:18:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\533e5e73c85eda8c4b0bb03fe00b1e78\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\533e5e73c85eda8c4b0bb03fe00b1e78\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:23:9-40
+activity#com.example.android.hellosharedprefs.MainActivity
+ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:9-29:20
+	android:name
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7f51a77116c0fe68b6943a23d7c5bbba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\7f51a77116c0fe68b6943a23d7c5bbba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\533e5e73c85eda8c4b0bb03fe00b1e78\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\533e5e73c85eda8c4b0bb03fe00b1e78\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8f7aa8d708c4b797135e48b52fbabcc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8f7aa8d708c4b797135e48b52fbabcc7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\de85feb537aae1400391c815ac9eca03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\de85feb537aae1400391c815ac9eca03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\c2f5297fbe48f13e2c9d6e5550b632d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\c2f5297fbe48f13e2c9d6e5550b632d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ab2f4474b8dcc3bf8f942dcbe0148363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ab2f4474b8dcc3bf8f942dcbe0148363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\25fd934b1be07ed54254e5ea8a5d1ed6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\25fd934b1be07ed54254e5ea8a5d1ed6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4285509a67a76844ab5a140709dd6fbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4285509a67a76844ab5a140709dd6fbe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5a6891acec21438be267b51a0e39898e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5a6891acec21438be267b51a0e39898e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4313e97fb2dbed8d5c54891ee8f4e5c0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4313e97fb2dbed8d5c54891ee8f4e5c0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\16cd3c3f5c8e5cc8836806fe36f0c33a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\16cd3c3f5c8e5cc8836806fe36f0c33a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\526ac74a5bcc2838332baae18f100927\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nombu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\526ac74a5bcc2838332baae18f100927\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nombu\Documents\GitHub\AndroidTraining\HelloSharedPrefs\app\src\main\AndroidManifest.xml
