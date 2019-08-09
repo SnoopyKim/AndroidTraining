@@ -91,7 +91,7 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Use a compatibility class from the support library to provide backward-compatibility for your app.
 </pre>
 
-<h3>DroidCafe</h3>
+<h3>DroidCafe & WithSettings</h3>
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-clickable-images/img/5961de998cd2e4cf.png">
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-input-controls/img/c97b83b2b1641618.png">
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/img/da72bfc83aae5644.png">
@@ -119,6 +119,9 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 <pre>
 04.4 -> Continue adding features to the Droid Cafe project from the previous practical.
 	Provide the Up button in the app bar to navigate up to the parent Activity.
+</pre>
+<pre>
+09.2 -> Add Settings Activity with PreferenceActivity
 </pre>
 
 <h3>Dialog For Alert</h3>
@@ -239,4 +242,12 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 <img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-shared-preferences/img/5dfd63922ee74727.png" />
 <pre>
 09.1 -> Update an app so it can save, retrieve, and reset shared preferences.
+</pre>
+
+<h3>App with Settings</h3>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app/img/b0ee2c02cb4db655.png" />
+<pre>
+09.2 -> Add a Setting option toggle switch.
+	Add code to set the default value for the setting, and access the setting value after it has changed.
+	Use and customize the Android Studio Settings Activity template.
 </pre>
