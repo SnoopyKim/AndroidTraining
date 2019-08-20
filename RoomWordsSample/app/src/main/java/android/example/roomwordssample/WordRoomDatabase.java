@@ -8,7 +8,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 
-@Database(entities = {Word.class}, version = 1, exportSchema = false)
+@Database(entities = {Word.class}, version = 2, exportSchema = false)
 public abstract class WordRoomDatabase extends RoomDatabase {
     public abstract WordDao wordDao();
     private static WordRoomDatabase INSTANCE;
@@ -32,6 +32,9 @@ public abstract class WordRoomDatabase extends RoomDatabase {
         return INSTANCE;
     }
 
+    // This callback is called when the database has opened.
+    // In this case, use PopulateDbAsync to populate the database
+    // with the initial data set if the database has no entries.
     private static RoomDatabase.Callback sRoomDatabaseCallback = new RoomDatabase.Callback() {
         @Override
         public void onOpen (@NonNull SupportSQLiteDatabase db) {
@@ -40,13 +43,12 @@ public abstract class WordRoomDatabase extends RoomDatabase {
         }
     };
 
-    /**
-     *  Populate the database in the background
-     */
+    // Populate the database with the initial data set
+    // only if the database has no entries.
     private static class PopulateDbAsync extends AsyncTask<Void, Void, Void> {
 
         private final WordDao mDao;
-        String[] words = {"dolphin", "crocodile", "cobra"};
+        String[] words = {"dolphin", "crocodile", "cobra", "elephant", "goldfish", "tiger", "snake"};
 
         PopulateDbAsync(WordRoomDatabase db) {
             mDao = db.wordDao();
@@ -54,14 +56,12 @@ public abstract class WordRoomDatabase extends RoomDatabase {
 
         @Override
         protected Void doInBackground(final Void... params) {
-            // Start the app with a clean database every time.
-            // Not needed if you only populate the database
-            // when it is first created
-            mDao.deleteAll();
-
-            for (int i = 0; i <= words.length - 1; i++) {
-                Word word = new Word(words[i]);
-                mDao.insert(word);
+            // If we have no words, then create the initial list of words
+            if (mDao.getAnyWord().length < 1) {
+                for (int i = 0; i <= words.length - 1; i++) {
+                    Word word = new Word(words[i]);
+                    mDao.insert(word);
+                }
             }
             return null;
         }

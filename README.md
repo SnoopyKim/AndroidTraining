@@ -262,3 +262,9 @@ Study for Android fundamentals - https://codelabs.developers.google.com/android-
 	Abstract the data backend as a Repository class with an API that is agnostic to how the data is stored or acquired.
 	Use a ViewModel to seperate all data operations from the UI.
 </pre>
+<img height="400" src="https://codelabs.developers.google.com/codelabs/android-training-room-delete-data/img/1fc13b1dec09c03.png" />
+<pre>
+10.2 -> Update to keep data when the app closes.
+	Allow users to delete all words by selecting an Options menu item.
+	Allow users to delete a specific word by swiping an item in the list.
+</pre>
